@@ -9,10 +9,7 @@ const Product = (props) => {
   const desc = description.slice(0, 100);
 
   return (
-    <div
-      className="col-lg-4 mb-4 "
-      data-aos="fade-left"
-    >
+    <div className="col-lg-4 mb-4 " data-aos="fade-left">
       <Card style={{ width: "18rem" }}>
         {/* <Card.Img variant="top" src={image} /> */}
         <img src={image} alt="" />
